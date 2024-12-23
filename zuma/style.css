@@ -1,0 +1,70 @@
+/*Muonekano wa jumla*/
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:green;
+    color: #333;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 015px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section {
+    padding: 20px;
+    margin: 20px auto;
+    background: white;
+    width: 80%;
+    box-shadow: 0010px rgba(red, green, blue, alpha);
+
+}
+
+section h2{
+    color: #0066cc;
+    border-bottom: 2px solid #0066cc;
+    padding-bottom: 5px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+
+}
+
+form inpit, form textarea, form button{
+    display: block;
+width: 100%;
+margin: 10px 0;
+padding: 10px;
+border-radius: 5px;
+}
+
+form button {
+    background-color: #0066cc;
+    color: white;
+    border: none;
+    cursor: pointers;
+}
